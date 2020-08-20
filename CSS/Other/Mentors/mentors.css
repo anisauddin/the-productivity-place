@@ -1,0 +1,73 @@
+:root {
+  --color-1: rgba(0, 0, 0, 0.5);
+  --color-2: #3C0F59;
+  --color-3: #360259;
+  --color-4: #460273;
+  --color-5: #5C148C;
+  --color-6: #6B14A6;
+  --color-7: #9350BC;
+  --color-8: #35478C;
+  --color-9: #1130A6;
+  --color-10: #1510F0;
+  --color-11: #2962FF;
+  --color-12: #0099FF;
+}
+
+#header {
+  background-color: var(--color-1);
+  padding: 5px;
+}
+
+#first {
+  background-color: var(--color-2);
+}
+
+#second {
+  background-color: var(--color-3);
+}
+
+#third {
+  background-color: var(--color-4);
+}
+
+#fourth {
+  background-color: var(--color-5);
+}
+
+#fifth {
+  background-color: var(--color-6);
+}
+
+#sixth {
+  background-color: var(--color-7);
+}
+
+#seventh {
+  background-color: var(--color-8);
+}
+
+#eighth {
+  background-color: var(--color-9);
+}
+
+#ninth {
+  background-color: var(--color-10);
+}
+
+#tenth {
+  background-color: var(--color-11);
+}
+
+#last {
+  background-color: var(--color-12);
+}
+
+section, header {
+  text-align: center;
+  margin: 0px;
+  padding: 15px;
+}
+
+button {
+  width: 80%;
+}

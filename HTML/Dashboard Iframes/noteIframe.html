@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notepad</title>
+  <link href="/../CSS/Base/base.css" rel="stylesheet" type="text/css" />
+  <link href="/../CSS/Features/note.css" rel="stylesheet" type="text/css" />
+  <style type="text/css">
+  </style>
+</head>
+<body>
+  <h1 class="center">Notepad</h1>
+  <h4 class="center">Tips: Hit ctrl + z to undo and ctrl + y to redo! Also, make sure to save your work :) To see more tips, scroll down!</h4>
+  <div id="all" contenteditable="true" spellcheck="true">
+  </div>
+
+  <button class="middle" id="save" type="button">Save Changes</button>
+  <button class="middle" id="clear" type="button">Clear All Notes</button>
+
+  <div class="middle" id="tips">
+    <h4 class="center">More tips!!!</h4>
+    <ul>
+      <li>Delete elements using the backspace key.</li>
+      <li>Hit ctrl + z to undo and ctrl + y to redo.</li>
+      <li>Add new elements by using the bar on the bottom of the screen.</li>
+      <li>It is SUPER important to save your work.</li>
+    </ul>
+  </div>
+
+  <div id="options">
+    <div id="buttons">
+      <h6 id="titleButton" class="optionButton">+ Title</h6>
+      <h6 id="authorButton" class="optionButton">+ Author</h6>
+      <h6 id="subtitleButton" class="optionButton">+ Subtitle</h6>
+      <h6 id="paragraphButton" class="optionButton">+ Paragraph</h6>
+      <h6 id="listButton" class="optionButton">+ List</h6>
+    </div>
+  </div>
+
+  <script src="/../Javascript/Other/Base/base.js"></script>
+  <script src="/../Javascript/Features/note.js"></script>
+</body>
+</html>

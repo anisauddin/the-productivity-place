@@ -1,0 +1,79 @@
+
+#all {
+  border-top: 3px solid white;
+  border-bottom: 3px solid white;
+  background-color: rgba(255, 255, 255, 0.25);
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+#options {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #360259;
+  border-top: 1px solid white;
+}
+
+.optionButton {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.optionButton:hover {
+  text-decoration: underline;
+}
+
+#buttons {
+  width: 90%;
+  margin: 5%;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-around;
+  text-decoration: none;
+}
+
+#clear, #save {
+  width: 80%;
+  margin-top: 25px;
+}
+
+#tips {
+  width: 90%;
+}
+
+/* Medium devices (landscape tablets, 768px and up), Large devices (laptops/desktops, 992px and up), Extra large devices (large laptops and desktops, 1200px and up), SUPER LARGE, 2000px and up */
+@media only screen and (min-width: 768px) {
+  #options {
+    padding-bottom: 25px;
+    height: 75px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up), Extra large devices (large laptops and desktops, 1200px and up), SUPER LARGE, 2000px and up */
+@media only screen and (min-width: 992px) {
+  #options {
+    height: 100px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up), SUPER LARGE, 2000px and up */
+@media only screen and (min-width: 1200px) {
+  #options {
+    height: 125px;
+  }
+
+  #all {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+/* SUPER LARGE, 2000px and up */
+@media only screen and (min-width: 2000px) {
+  #options {
+    height: 300px;
+  }
+}

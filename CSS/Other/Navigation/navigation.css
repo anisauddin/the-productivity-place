@@ -1,0 +1,90 @@
+:root {
+  --color-1: #360259;
+  --color-2: #3C0F59;
+  --color-3: #460273;
+  --color-4: #5C148C;
+  --color-5: #6B14A6;
+  --color-base: rgba(147, 80, 188, 0.75);
+  --color-6: #4D17A5;
+  --color-7: #35478C;
+  --color-8: #1130A6;
+  --color-9: #1510F0;
+  --color-10: #2962FF;
+  --color-11: #0099FF;
+}
+
+#backButton {
+  width: 10%;
+}
+
+#headerTitle {
+  width: 60%;
+  margin-top: 30px;
+}
+
+#header {
+  background-color: black;
+  padding: 5px;
+}
+
+#headerTop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  #backButton {
+    width: 8%;
+  }
+
+  #headerTitle {
+    margin-top: 50px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  #backButton {
+    width: 5%;
+  }
+
+  #headerTitle {
+    margin-top: 80px;
+  }
+}
+
+#first {
+  background-color: #360259;
+}
+
+#second {
+  background-color: #5C148C;
+}
+
+#third {
+  background-color: #673AB7;
+}
+
+#fourth {
+  background-color: #9250BC;
+}
+
+#fifth {
+  background-color: #2962FF;
+}
+
+#last {
+  background-color: #0099FF;
+}
+
+section, header {
+  text-align: center;
+  margin: 0px;
+  padding: 15px;
+}
+
+button {
+  width: 80%;
+}

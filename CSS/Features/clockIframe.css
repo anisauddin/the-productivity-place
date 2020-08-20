@@ -1,0 +1,143 @@
+
+#timeBox {
+  background-color: rgba(147, 80, 188, 0.75);
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+  margin-top: 50px;
+  text-align: center;
+  border: 1px solid white;
+}
+
+#timeTitle {
+  margin-bottom: 0px;
+}
+
+#timeFormat {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+#topBar, #middleBar, #bottomBar, #buttonBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+}
+
+#middleBar {
+  width: 70%;
+}
+
+#bottomBar img {
+  margin-bottom: 50px;
+}
+
+#buttonBar {
+  width: 98%;
+  margin-bottom: 50px;
+}
+
+#buttonBar button, #startAndReset button {
+  width: 48%;
+  font-size: 2.5em;
+}
+
+.third {
+  width: 30%;
+}
+
+#time1, #time2, #time3, #time4, #time5 {
+  font-size: 6em;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  #time1, #time2, #time3 {
+    font-size: 7.5em;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  #time1, #time2, #time3, #time4, #time5 {
+    font-size: 8.5em;
+  }
+
+  #column {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    text-align: center;
+  }
+
+  #topBar, #middleBar, #bottomBar {
+    width: 60%;
+  }
+
+  #middleBar {
+    margin-top: 20px;
+    width: 70%;
+  }
+
+  #buttonBar {
+    flex-direction: column;
+  }
+
+  #buttonBar button {
+    margin-top: 50px;
+    width: 90%;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up), Extra large devices (large laptops and desktops, 1200px and up), SUPER LARGE, 2000px and up */
+@media only screen and (min-width: 992px) {
+  #time1, #time2, #time3, #time4, #time5 {
+    font-size: 9em;
+  }
+
+  #topBar, #middleBar, #bottomBar {
+    width: 80%;
+  }
+
+  #middleBar {
+    width: 80%;
+  }
+}
+
+/* Only for Stopwatch page */
+
+#bar, #startAndReset {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#bar {
+  width: 90%;
+}
+
+#startAndReset {
+  width: 95%
+}
+
+#startAndReset button {
+  width: 48%;
+  margin-bottom: 50px;
+  margin-top: 15px;
+}
+
+/* Only for Clock page */
+
+#timeInfo {
+  width: 80%;
+}

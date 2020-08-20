@@ -1,0 +1,58 @@
+
+/* Extra small devices (phones, 600px and down), Small devices (portrait tablets and large phones, 600px and up), and Medium devices (landscape tablets, 768px and up) are the defualt CSS*/
+
+#flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+#leftHalf, #rightHalf {
+  width: 100%
+}
+
+#picture {
+  margin-left: 25%;
+  margin-right: 25%;
+  width: 50%;
+  border-radius: 500px;
+}
+
+.flexText {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+/* Large devices (laptops/desktops, 992px and up), Extra large devices (large laptops and desktops, 1200px and up), SUPER LARGE, 2000px and up */
+@media only screen and (min-width: 992px) {
+  #flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+  }
+
+  #leftHalf, #rightHalf  {
+    width: 50%
+  }
+
+  #picture {
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    border-radius: 500px;
+  }
+
+  #label {
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+
+  .flexText {
+    width: 80%;
+  }
+}

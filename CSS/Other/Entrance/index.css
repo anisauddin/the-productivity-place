@@ -1,0 +1,21 @@
+
+#play {
+  width: 15%;
+  margin-right: 40%;
+  margin-left: 40%;
+}
+
+#entrance_all {
+  margin-top: 10%;
+  margin-bottom: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+  padding: 0%;
+}
+
+#entrance_text {
+  height: 15%;
+}

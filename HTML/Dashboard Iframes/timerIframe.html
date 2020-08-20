@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Timer</title>
+  <link href="/../CSS/Base/base.css" rel="stylesheet" type="text/css" />
+  <link href="/../CSS/Features/clockIframe.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <div id="timeBox" class="middle">
+    <h1 id="timeTitle">Timer</h1>
+    <h4 id="timeFormat">Formatted as hour(s) : minute(s) : seconds(s)</h4>
+    <div id="column">
+      <div id="clock">
+        <div class="middle" id="topBar">
+          <img class="third" id="upHour" src="/../Images/Other/arrowUp.png" alt="Scale Up Arrow">
+          <img class="third" id="upMinute" src="/../Images/Other/arrowUp.png" alt="Scale Up Arrow">
+          <img class="third" id="upSecond" src="/../Images/Other/arrowUp.png" alt="Scale Up Arrow">
+        </div>
+        <div class="middle" id="middleBar">
+          <h1 class="third" id="time1">00</h1>
+          <h1 class="third" id="time2">:</h1>
+          <h1 class="third" id="time3">00</h1>
+          <h1 class="third" id="time4">:</h1>
+          <h1 class="third" id="time5">00</h1>
+        </div>
+        <div class="middle" id="bottomBar">
+          <img class="third" id="downHour" src="/../Images/Other/arrowDown.png" alt="Scale Down Arrow">
+          <img class="third" id="downMinute" src="/../Images/Other/arrowDown.png" alt="Scale Down Arrow">
+          <img class="third" id="downSecond" src="/../Images/Other/arrowDown.png" alt="Scale Down Arrow">
+        </div>
+      </div>
+      <div class="middle" id="buttonBar">
+        <button id="start" type="button">Start</button>
+        <button id="reset" type="button">Reset</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="/../Javascript/Other/Base/base.js"></script>
+  <script src="/../Javascript/Features/timer.js"></script>
+</body>
+</html>

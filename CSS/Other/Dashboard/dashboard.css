@@ -1,0 +1,30 @@
+
+#box {
+  background-color: rgba(147, 80, 188, 0.75);
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+  margin-top: 50px;
+  text-align: center;
+  border: 1px solid white;
+}
+
+iframe {
+  margin: 25px;
+  width: 80%;
+  height: 300px;
+}
+
+/* Large devices (laptops/desktops, 992px and up), Extra large devices (large laptops and desktops, 1200px and up), SUPER LARGE, 2000px and up */
+@media only screen and (min-width: 992px) {
+  #box {
+    flex-flow: row wrap;
+  }
+  iframe {
+    width: 40%;
+    height: 350px;
+  }
+};
